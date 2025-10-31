@@ -1,0 +1,63 @@
+.titulo {
+    font-family: titulos;
+    color: #D2AE77;
+    font-size: 120pt;
+}
+
+.subtitulo {
+    font-family: titulos;
+    color: #D2AE77;
+    font-size: 65pt;
+    text-align: center;
+}
+
+.textoprincipal {
+    font-family: subtitulos;
+    font-size: 60pt;
+    padding: 35px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+}
+
+.makingof {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-family: subtitulos;
+    font-size: 60pt;
+    margin: 20px;
+}
+
+p {
+    font-family: textos;
+    font-size: 60pt;
+    margin: 20px;
+}
+
+.ultimocontenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+    
+
+}
+
+.ultimocontenedor img{
+    width: 2500px;
+    height: auto;
+}
+
+.ultimocontenedor span{
+    font-family: textos;
+    font-size: 50pt;
+    flex: 1;
+    margin: 0;
+
+}

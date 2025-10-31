@@ -1,0 +1,36 @@
+
+
+.titulo {
+    font-family: titulos;
+    color: #D2AE77;
+    font-size: 120pt;
+}
+
+.subtitulo {
+    background-color: #D2AE77;
+    color: black;
+    font-family: subtitulos;
+    font-size: 75pt;
+    text-align: center;
+    margin: 0;
+    padding: 70px;
+}
+
+.imguno {
+    margin: 0px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    font-size: textos;
+    font-size: 55pt;
+    margin: 30px;
+}
+
+.imagenes {
+    width: 2500px;
+}

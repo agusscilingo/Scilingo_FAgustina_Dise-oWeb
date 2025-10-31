@@ -1,0 +1,68 @@
+@font-face {
+    font-family: titulos;
+    src: url(../fonts/Inknut_Antiqua/InknutAntiqua-Bold.ttf);
+}
+
+@font-face {
+    font-family: subtitulos;
+    src: url(/fonts/InriaSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: textos;
+    src: url(/fonts/InriaSans-Regular.ttf);
+}
+
+.logo {
+    height: 120px;
+    padding: 10px;
+}
+
+header {
+    background-color: black;
+    height: 100px;
+}
+
+.divheader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navheader {
+    display: flex;
+    gap: 50px;
+}
+
+.aheader {
+    font-family: textos;
+    font-size: 70px;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: textos;
+    font-size: 20pt;
+}
+
+footer {
+    background-color: #D2AE77;
+    height: 200px;
+}
+
+.footernav {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.footernav a {
+    font-family: subtitulos;
+    font-size: 55px;
+    text-decoration: none;
+    color: black;
+    margin: 40px;
+}
